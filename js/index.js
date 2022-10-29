@@ -45,15 +45,6 @@ function loading(){
     })
 }
 
-// $(document).ready(function(){
-//     $(".sk-cube-grid").fadeOut(1000,function(){
-//         $("#loading").remove()
-//         $("body").css("overflow-y","auto")
-//     })
-//     AOS.init();
-// })
-
-
 /*
 function remove(){
     $('#activediv').remove();
