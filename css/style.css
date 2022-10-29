@@ -1,0 +1,355 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.NavMenu{
+    z-index: 9999;
+}
+.sideNavMenu{
+    background-color: black;
+    height: 100vh;
+    width: 250px;
+    display: none;
+    /* position: relative;  */
+}
+.activesidebar{
+    display: block;
+}
+.inactivesidebar{
+    display: none;
+}
+.navItem{
+    position: fixed;
+    transition: all 0.6s ;
+}
+
+
+.navItem li{
+    list-style: none !important;
+    padding-top: 25px;
+}
+
+.navItem li a{
+    color: white !important;
+    text-decoration: none;
+}
+
+
+.navSocialItem span{
+    color: #999;
+
+}
+
+.navSocialItem{
+    bottom: 50px;
+    left: 20px;
+    position: absolute;
+
+}
+
+
+.stripNav{
+    height: 100vh;
+    width: 60px;
+    background-color: #fff;
+    text-align: center;
+    /* position: fixed; */
+    z-index: 55555555;
+
+}
+
+.stripNav .stripImg img{
+    height: 48px;
+}
+
+.stripNav .stripImg {
+    padding-top: 25px;
+}
+
+.stripToggel {
+    position: absolute;
+    top: 50%;
+    padding-left: 23px;
+}
+
+
+.stripSocial{
+    bottom: 20px;
+    z-index: 11;
+    position: absolute;
+    padding-left: 20px;
+}
+
+
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+
+/* s t a r t  c a t e g o r i e s  */
+.categories {
+    background-color: rgb(13, 13, 13);
+    /* width: 100%; */
+}
+
+/* .categories .categoreyMealImg .img{
+    border: 1px solid;
+    border-radius: 15px;
+} */
+.categoreyMeal{
+    background-color: rgba(255,255, 255, 0.5);
+    height: 100%;
+    /* padding: 1rem; */
+    border: 1px solid ;
+    /* border-radius: 8px; */
+    opacity: 0;
+    /* overflow: hidden; */
+}
+
+.categoreyMeal:hover{
+    opacity: 1;
+    /* transition: all 1s; */
+    /* padding-left: 5px; */
+    /* padding: 1rem; */
+    margin: 0 12px;
+    /* width: 92%; */
+    top: 0%;
+    right: 0%;
+    left: 0;
+    bottom: 0;
+    /* padding: 1rem; */
+    /* margin-right: 2rem; */
+    /* height: 100%;*/
+    border-radius: 8px;
+    border: 1px solid ; 
+}
+
+.categoreyMeal h2{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.categoreyMeal p{
+    font-weight: 500;
+    /* font-size: 2rem; */
+}
+/* e n d   c a t e g o r i e s  */
+
+
+
+
+
+/*  s t a r t    a r e a s  */
+.areas{
+    background-color: rgb(13, 13, 13);
+    padding: 6rem 5rem;
+
+}
+
+.areas i{
+    color: #e65a50ab;
+}
+/*  e n d    a r e a s  */
+
+
+
+
+
+/* s t a r t    i n g r e d i e n t s  */
+.ingredients{
+    background-color: rgb(13, 13, 13);
+    color: white;
+    padding: 6rem;
+}
+
+.ingredients i{
+    color: #9ee650ab;
+}
+
+.ingredients h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+}
+
+.ingredients p{
+    font-weight: 300;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+/* e n d    i n g r e d i e n t s  */
+
+
+
+/* s t a r t   c o n t a c t  */
+.contact{
+    background-color: rgb(13, 13, 13);
+}
+
+.contact .col-md-6{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.mealDescription{
+    background-color: rgb(13, 13, 13);
+    color: white;
+}
+/* e n d   c o n t a c t  */
+
+
+
+
+
+/* s t a r t   s e a r c h  */
+
+.search-container{
+    background-color: rgb(13, 13, 13);
+    height: 100vh;
+}
+
+.search-container input{
+    border: 0px solid transparent;
+    border-radius: 0%;
+    border-bottom: 2px solid white;
+    background-color: rgb(13, 13, 13);
+}
+
+.search-container input:focus{
+    border-bottom: 1px solid white;
+    background-color: rgb(13, 13, 13);
+}
+
+.search-container input::placeholder{
+   text-align: center;
+}
+
+/* e n d   s e a r c h  */
+
+
+
+
+/*  s t a r t    c o n t a c u s */
+.contacUs{
+    background-color: rgb(13, 13, 13);
+    padding: 3rem 0rem; 
+}
+
+.contacUs h2{
+    color: white !important;
+}
+.contacUs input{
+    border: 0px solid transparent;
+    border-radius: 0%;
+    box-shadow: 0 .5rem 1rem rgba(255,255,255,.1)!important;
+    border-bottom: 1px solid white;
+    background-color: rgb(13, 13, 13);
+}
+
+.contacUs input:focus{
+    box-shadow: none;
+    border-bottom: 1px solid white;
+    background-color: rgb(13, 13, 13);
+}
+
+.contacUs input::placeholder{
+   text-align: center;
+}
+
+.contacUs .alert{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+/*  e n d    c o n t a c u s */
+
+
+
+.mealDescription .bgTag p{
+    background-color: #d4edda !important;
+    color: #155724 !important;
+    border-color: #c3e6cb;
+
+}
+
+
+
+/* loading */
+
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #000000f2;
+    z-index: 1031;
+}  
+
+
+
+.sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto;
+  }
+  
+  .sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #fff;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+            animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+  }
+  
+  .sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s; }
+  .sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s; }
+  .sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  
+  @-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1); 
+    }
+  }
+  
+  @keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1);
+    } 
+}
