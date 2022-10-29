@@ -45,21 +45,6 @@ function loading(){
     })
 }
 
-/*
-function remove(){
-    $('#activediv').remove();
-
-}
-*/
-
-// function test(){
-//     alert('hi');
-// }
-
-// $("#test").click(function() {
-//     // $(this).css("opacity"," 1" );
-//     alert("hi");
-// })
 
 /*
 |
